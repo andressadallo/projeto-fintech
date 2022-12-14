@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Expletus Sans', cursive;
+}
+
+img {
+    width: 350px;
+}
+
+h2 {
+    font-family: 'Karma', serif;
+    width: 70%;
+    text-align: center;
+}
+
+a {
+    color: #0284AD;
+    text-decoration: none;
+}
+a:hover {
+    color: #0284AD;
+}
+
+.enter-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.enter-button {
+    width: 60%;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.67);
+}
+
+.enter-button:hover {
+    cursor: pointer;
+}
